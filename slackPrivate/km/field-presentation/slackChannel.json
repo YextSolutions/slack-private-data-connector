@@ -1,0 +1,72 @@
+{
+  "$id": "slackPrivate_slackChannel",
+  "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
+  "entityType": "slackPrivate_slackChannel",
+  "displayName": "Slack Channel",
+  "presentationEntries": [
+    {
+      "displayName": "Content",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Core Information",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "name",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "entityId",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "slackPrivate_channelUrl"
+        },
+        {
+          "id": "slackPrivate_purpose"
+        },
+        {
+          "id": "slackPrivate_topic"
+        }
+      ]
+    },
+    {
+      "displayName": "Message Metadata",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "slackPrivate_isArchived"
+        },
+        {
+          "id": "slackPrivate_isGeneral"
+        },
+        {
+          "id": "slackPrivate_isPrivate"
+        },
+        {
+          "id": "slackPrivate_numberOfMembers"
+        },
+        {
+          "id": "slackPrivate_dateCreated"
+        }
+      ]
+    },
+    {
+      "displayName": "Other",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Internal Use Only",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "folder"
+        },
+        {
+          "id": "labels"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "$id": "slackPrivate_statusField",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "displayName": "Status",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "typeId": "slackPrivate_status"
+}

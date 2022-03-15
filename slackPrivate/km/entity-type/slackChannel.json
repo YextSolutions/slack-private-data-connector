@@ -1,0 +1,7 @@
+{
+  "$id": "slackPrivate_slackChannel",
+  "$schema": "https://schema.yext.com/config/km/entity-type/v2",
+  "description": "",
+  "displayName": "Slack Private Channel",
+  "pluralDisplayName": ""
+}

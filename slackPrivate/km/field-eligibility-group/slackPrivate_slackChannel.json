@@ -1,0 +1,16 @@
+{
+  "$id": "slackPrivate_slackChannel",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Slack Channel",
+  "entityType": "slackPrivate_slackChannel",
+  "fields": [
+    "slackPrivate_purpose",
+    "slackPrivate_topic",
+    "slackPrivate_dateCreated",
+    "slackPrivate_isArchived",
+    "slackPrivate_isGeneral",
+    "slackPrivate_isPrivate",
+    "slackPrivate_numberOfMembers",
+    "slackPrivate_channelUrl"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "$id": "slackPrivate_slackMessage",
+  "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
+  "entityType": "slackPrivate_slackMessage",
+  "displayName": "Slack Message",
+  "presentationEntries": [
+    {
+      "displayName": "Content",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Core Information",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "name",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "entityId",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "slackPrivate_slackChannel"
+        },
+        {
+          "id": "slackPrivate_messageText"
+        },
+        {
+          "id": "slackPrivate_messageTimestamp"
+        },
+        {
+          "id": "slackPrivate_messageURL"
+        },
+        {
+          "id": "slackPrivate_reactions"
+        },
+        {
+          "id": "slackPrivate_isPinned"
+        },
+        {
+          "id": "slackPrivate_messages"
+        }
+      ]
+    },
+    {
+      "displayName": "User Metadata",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "slackPrivate_linkedUser"
+        }
+      ]
+    },
+    {
+      "displayName": "Other",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Internal Use Only",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "folder"
+        },
+        {
+          "id": "labels"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "$id": "slackPrivate_slackChannel",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "displayName": "Slack Channel",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "listType": {
+      "typeId": "entityReference",
+      "type": {
+        "entityReferenceType": {
+          "supportedEntityTypeIds": [
+            "slackPrivate_slackChannel"
+          ]
+        }
+      }
+    }
+  },
+  "typeId": "list"
+}

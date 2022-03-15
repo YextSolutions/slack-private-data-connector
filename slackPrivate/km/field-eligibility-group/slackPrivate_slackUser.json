@@ -1,0 +1,19 @@
+{
+  "$id": "slackPrivate_slackUser",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Slack User",
+  "entityType": "slackPrivate_slackUser",
+  "fields": [
+    "slackPrivate_displayName",
+    "slackPrivate_isBot",
+    "slackPrivate_isDeleted",
+    "slackPrivate_jobTitle",
+    "slackPrivate_lastUpdated",
+    "slackPrivate_slackAvatar",
+    "slackPrivate_statusField",
+    "slackPrivate_teamID",
+    "slackPrivate_timezone",
+    "emails",
+    "mainPhone"
+  ]
+}
