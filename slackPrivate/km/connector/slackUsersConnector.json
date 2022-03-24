@@ -6,7 +6,6 @@
   "source": {
     "sourceConfig": {
       "apiPushConfig": {
-        "app": "58757",
         "dataFormat": "JSON",
         "enabled": true
       }
@@ -157,7 +156,7 @@
       "subfieldPath": []
     },
     {
-      "field": "slackPrivate_slackPrivateAvatar",
+      "field": "slackPrivate_slackAvatar",
       "header": "User Picture",
       "subfieldPath": [
         {
