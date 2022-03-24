@@ -155,7 +155,7 @@
       "subfieldPath": []
     },
     {
-      "field": "slackPrivate_slackPrivateChannel",
+      "field": "slackPrivate_slackChannel",
       "header": "Channel ID",
       "subfieldPath": []
     },
