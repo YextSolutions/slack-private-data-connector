@@ -104,6 +104,19 @@
         "plugin": "slackPrivate_formatDates",
         "function": "formatDate"
       }
+    },
+    {
+      "filterRows": {
+        "action": "REMOVE",
+        "combinator": "AND",
+        "rules": [
+          {
+            "columnHeader": "Is Deleted",
+            "conditional": "EQUALS",
+            "conditionalInput": "true"
+          }
+        ]
+      }
     }
   ],
   "mappings": [
