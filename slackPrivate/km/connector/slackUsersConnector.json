@@ -133,6 +133,9 @@
             "subfieldPath": [
                 {
                     "name": "statusText"
+                },
+                {
+                    "name": "markdown"
                 }
             ]
         },
