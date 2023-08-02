@@ -208,6 +208,9 @@
             "subfieldPath": [
                 {
                     "name": "statusEmoji"
+                },
+                {
+                    "name": "markdown"
                 }
             ]
         },
